@@ -78,8 +78,7 @@ function isValidDay(year, month, candidateDay) {
 }
 
 
-const MONTHS_OF_30_DAYS = new Set();
-MONTHS_OF_30_DAYS.add(...[4, 6, 9, 11]);
+const MONTHS_OF_30_DAYS = [4, 6, 9, 11];
 
 /**
  * Gets the number of days in the Julian month.
